@@ -4,45 +4,76 @@
 <head>
     <meta charset="UTF-8" />
     <!-- Link css style sheet -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>MD Techie</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <!-- Center and enlarge headers with fancy font -->
         <h1>Misty Duhart</h1>
-        <h2>*future* full-stack developer</h2>
+        <p>*future* full-stack developer</p>
     </header>
-    <main>
-    <nav id="menu"
-                <a href="#About-Me">About Me</a>
-                <a href="#Projects">Projects</a>
-                <a href="#Contact">Contact</a>
-    </nav>
 
-    <div class="content">
-        <div class="about me">
-            <img src="#" class="float-left" />
-            <h3>About Me</h3>
-            <p>
-                Brief description of who you are and what you do in tech
-            </p>
-        </div>
-        <div id="projects" class="projects">
-            <img src="#" class="float-right" />
-            <h3>Projects</h3>
-            <p>
-                Figure out how to attach current project and images here
-            </p>
-        </div>
-        <div id="contact" class="contact">
-            <img src="#" class="float-left" />
-            <h3>Contact</h3>
-            <p>
-               Insert contact form
-            </p>
-        </div>
-    </div>
+ 
+        <!-- Menu bar -->
+        <div id="navbar">
+               <a href="#About-Me">About Me</a>
+               <a href="#Projects">Projects</a>
+               <a href="#Contact">Contact</a>
+         </div>
+
+    <main>
+    <!-- Section 1 About Me -->
+    <section class="main" 
+        <h2>About Me</h2>
+        <figure>
+            <img src="#" alt="professional photo goes here">
+        </figure>
+       <p>Info about me here</p>
+    </section>
+    
+    <!-- Section 2 Projects -->
+    <div class="Projects">
+        <section class="card">
+          <header>Fan Page</header>
+          <img src="#" alt="fan page website" />
+          <p>HTML</p>
+        </section>
+        <section class="card">
+          <header>Watch That Box</header>
+          <img src="#" alt="interactive box website" />
+          <p>HTML and Javascript</p>
+        </section>
+        <section class="card">
+          <header>Classic Webpage</header>
+          <img
+            src="#"
+            alt="mystie webpage"
+          />
+          <p>HTML and CSS</p>
+        </section>
+        <section class="card">
+          <header>Works In Progress</header>
+          <img
+            src="#"
+            alt="GitHub page"
+          />
+          <p>GitHub</p>
+        </section>
+      </div>
+
+        <!-- Section 3 Contact form -->
+        <section>
+            <div id="contact" class="contact">
+                <img src="#" class="float-left" />
+                <h2>Contact</h2>
+                <p>
+                   Insert contact form
+                </p>
+            </div>
+        </section>
 </main>
 
 <footer class="text-center">
