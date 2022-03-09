@@ -3,9 +3,9 @@
   }
   
   body {
-    font-family: Arial;
+    font-family: 'Lora', serif;
     margin: 0;
-    display: flex;
+   
     flex-direction: column;
     min-height: 100vh;
   }
@@ -18,20 +18,20 @@
   }
 
   #navbar {
-    background-color: tan;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    transition: top 0.3s;
+  background-color: #333; 
+  position: fixed; 
+  top: -6px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s;
   }
 
   #navbar a {
-    display: inline-flex;
-    margin-right: 50px;
-    color: #f2f2f2;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
   }
 
   #navbar a:hover {
