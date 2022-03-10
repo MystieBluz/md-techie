@@ -71,7 +71,27 @@
     color: palevioletred;
   }
 
+  .images {
+    display: flex;
+    flex-direction: row;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: center;
+    /* Centers along the opposite axis */
+    align-items: center;
+    width: 90%;
+    /* Uses the height of the viewport */
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
  
+  
+  .card img {
+    display: block;
+    margin: 10px 0px 550px;
+    width: 30%;
+  }
+  
   
 /* Contact form area */
   input[type=text], select, textarea {
