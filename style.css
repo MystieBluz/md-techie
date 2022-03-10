@@ -30,11 +30,21 @@
     font-size: 55px;
   }
 
+  h2 {
+    text-align: center;
+    background-color: peachpuff;
+    margin-bottom: 150px;
+    padding: 45px;
+    border: 20px purple solid;
+    font-size: 35px;
+  }
+
   img {
-    margin: auto 55px;
-    
+    float: left;
     width: 150px;
-    height: 38px;
+    margin-left: -300px;
+    margin-top: 45px;
+   
   }
 
 
@@ -61,13 +71,4 @@
     color: black;
   }
 
-  h2 {
-    text-align: center;
-    background-color: peachpuff;
-    margin-bottom: 150px;
-    padding: 45px;
-    border: 20px purple solid;
-    font-size: 35px;
-    
-  
-  }
+ 
