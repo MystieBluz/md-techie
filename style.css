@@ -12,7 +12,7 @@
   
   header {
     display: block;
-    height: 750px;
+    height: 790px;
     width: 100%;
     margin-bottom: -30px;
     padding: 40px;
@@ -60,7 +60,7 @@
   display: inline-block;
   margin: 0px 0px -10px 200px;
   color:purple;
-  padding: 15px;
+  padding: 1px;
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
