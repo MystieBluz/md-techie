@@ -11,17 +11,32 @@
   }
   
   header {
-    height: 400px;
+    display: block;
+    height: 450px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: -30px;
     padding: 40px;
     text-align: center;
-    background-image: url(./portfolio_header_1.png);
+    background-image: url(./images/portfolio_header_1.png);
     background-size: cover;
     background-position: center;
-    font-size: 55px;
     color: wheat;
   }
+
+  h1 {
+    display: inline;
+    float: left;
+    margin: -25px;
+    font-size: 55px;
+  }
+
+  img {
+    margin: auto 55px;
+    
+    width: 150px;
+    height: 38px;
+  }
+
 
   #navbar {
   background-color:peachpuff; 
@@ -44,4 +59,15 @@
   #navbar a:hover {
     background-color: #ddd;
     color: black;
+  }
+
+  h2 {
+    text-align: center;
+    background-color: peachpuff;
+    margin-bottom: 150px;
+    padding: 45px;
+    border: 20px purple solid;
+    font-size: 35px;
+    
+  
   }
