@@ -8,15 +8,11 @@
     <title>MD Techie</title>
 </head>
 
-<body>
-    <!-- Header -->
-    <header>
-        <!-- Center and enlarge headers with fancy font -->
-        <h1>Misty Duhart</h1>
-        <p>future full-stack developer</p>
-    </header>
+<body <!-- Header -->
+  <header>
+       <!-- <h1>Misty Duhart</h1> -->
+  </header>
 
- 
         <!-- Menu bar -->
         <div id="navbar">
                <a href="#About-Me">About Me</a>
@@ -26,38 +22,42 @@
 
     <main>
     <!-- Section 1 About Me -->
-    <section class="main" >
-      <h2>About Me</h2>
+    <section>
+      <!-- Center -->
+      <head>
+        <h2> About Me</h2>
+      </head>
+      <!-- Professional Photo -->
         <figure>
             <img src="#" alt="professional photo">
         </figure>
-       <p>Info about me here</p>
+       <p>Hello, my name is Misty Duhart and I am a future full stack developer based in Atlanta, GA. </p>
     </section>
     
-    <!-- Section 2 Projects -->
-    <div class="Projects">
-      <!-- Center header -->
-      <h2>Projects</h2>
+    <div>
+      <!-- Center -->
+      <head>
+        <h2>Projects</h2>
+      </head>
+      <!-- Section 2 -->
         <section class="card">
-          <header>Fan Page</header>
-          <img src="#" alt="fan page website" />
-          <p>HTML</p>
+          <img src="#" alt="HTML Sample" />
+          <p>fan page website</p>
         </section>
         <section class="card">
-          <header>Watch That Box</header>
+          <h3>HTML and Javascript Sample</h3>
           <img src="#" alt="interactive box website" />
-          <p>HTML and Javascript</p>
+          <p>HTML and Javascript Sample</p>
         </section>
         <section class="card">
-          <header>Classic Webpage</header>
+          <h3>HTML and CSS Sample</h3>
           <img
             src="#"
-            alt="mystie webpage"
-          />
-          <p>HTML and CSS</p>
+            alt="mystie webpage"/>
+          <p>Standard Webpage</p>
         </section>
         <section class="card">
-          <header>Works In Progress</header>
+          <h3>GitHub</h3>
           <img
             src="#"
             alt="GitHub page"
@@ -68,19 +68,32 @@
 
         <!-- Section 3 Contact form -->
         <section>
-            <div id="contact" class="contact">
-                <img src="#" class="float-left" />
-                <h2>Contact</h2>
-                <p>
-                   Insert contact form
-                </p>
+          <head> 
+            <h2>Contact</h2>
+          </head>
+          <form>
+            <ul>
+              <li>
+                <label class="text-right" for="name">Name:</label>
+                <input type="text" id="name" name="user-name">
+              </li>
+              <li>
+                <label class="text-right" for="email">Email:</label>
+                <input type="text" id="email" name="user-email">
+              </li>
+            </ul>
+            <div class="text-center">
+              <button type="submit">SEND</button>
             </div>
+          </form>
         </section>
 </main>
-
+<!-- Footer -->
 <footer class="text-center">
     © 2022 Website managed with ❤️️
   </footer>
+<!-- Link to javascript -->
+<script src="./javascript.js"></script>
 
 </body>
 </html>
