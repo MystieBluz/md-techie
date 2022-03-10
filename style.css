@@ -104,44 +104,10 @@
     padding: 20px;
     margin: -80px 100px 200px;
   }
-
-
-.products {
-  flex: 4;
-  padding: 90px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-
-/* Added rotation, box-shadow, border-radius */
-.card {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px palevioletred;
-  margin: -150px 40px 0px 55px;
-}
-
-/* Added border-radius to match the card */
-.card header {
-  border-radius: 50px 50px 0px 0px;
-  padding: 20px;
-}
-
-.card p {
-  text-align: center;
-}
-
-.card img {
-  width: 100%;
-}
-
 .text-center {
   text-align: center;
 }
+
 
   footer {
     margin-top: 0;
