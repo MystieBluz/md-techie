@@ -70,42 +70,49 @@
     background-color: #ddd;
     color: palevioletred;
   }
+/* Contact form area */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 7px; /* Some padding */ 
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 15px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
 
-  form {
-    margin: 0 auto;
-    width: 500px;
-    padding: 10px;
-    border: 5px solid #DDAF94;
-    border-radius: 20px;
+  /* Submit button */
+  input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
   }
-  
-  label {
-    display: inline-block;
-    width: 100px;
+
+  /* Submit button hover color */
+  input[type=submit]:hover {
+    background-color: #45a049;
   }
-    
-  input, 
-  textarea {
-    box-sizing: border-box;
-    width: 400px;
-    border: 1px solid #4F4846;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 60px;
-  }
-    
-  button {
-    height: 40px;
-    width: 120px;
-    background-color: lightblue;
-    color: black;
+
+  /* Contact form background color and padding */
+  .container {
+    border-radius: 9px;
+    background-color: peachpuff;
+    padding: 20px;
+    margin: -80px 100px 200px;
   }
 
   footer {
-    
     margin-top: 0;
     bottom: 0;
     color: black;    
   }
+
+  .text-center {
+    text-align: center;
+  }
+
+ 
