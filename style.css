@@ -3,7 +3,6 @@
   }
   
   body {
-    font-family: 'Lora', serif;
     margin: 0px 0px;
     flex-direction: column;
     min-height: 100vh;
@@ -27,7 +26,9 @@
     display: inline;
     float: left;
     margin: -25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
+    
   }
 /* Section headers */
   h2 {
@@ -41,13 +42,29 @@
     font-size: 35px;
   }
 
+  p {
+    text-align: center;
+    margin-top: -100px;
+  }
+
   /* Image under main header */
-  #headshot {
+  .headshot {
+    display: flex;
     float: left;
-    width: 177px;
-    margin-left: -300px;
-    margin-top: 45px;
-   
+    align-items: center;
+    margin: 45px -480px -185px;
+ 
+  }
+  img {
+    max-width: 55%
+  }
+
+  .image {
+    flex-basis: 45%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
   }
 
 
@@ -64,8 +81,8 @@
   margin: 0px 0px -10px 300px;
   color:purple;
   padding: 1px;
-  font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-family: cursive;
   text-decoration: solid;
   }
 
@@ -86,7 +103,7 @@
     margin-left: -300px;
   }
   
-/* Grow  projecgt images */
+/* Grow  project images */
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -98,6 +115,8 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
+/* Transformations for project images */
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
