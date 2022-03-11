@@ -70,24 +70,15 @@
     background-color: #ddd;
     color: palevioletred;
   }
-
-  .images {
+/* Row images under projects */
+  .row {
     display: flex;
-    flex-direction: row;
-    /* Centers along the main axis determined by flex-direction */
-    justify-content: center;
-    /* Centers along the opposite axis */
-    align-items: center;
-    width: 90%;
-    /* Uses the height of the viewport */
-    height: 100vh;
-    margin: 0 auto;
+    margin: -90px 30px 70px 650px;
   }
-  
-  .card img {
-    display: block;
-    margin: 10px 0px 550px;
-    width: 30%;
+  /* Spacing for images under projects */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
   }
   
   
@@ -125,6 +116,8 @@
     padding: 20px;
     margin: -80px 100px 200px;
   }
+
+  /* Footer placement */
 .text-center {
   text-align: center;
 }
