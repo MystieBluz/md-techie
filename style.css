@@ -8,7 +8,7 @@
     min-height: 100vh;
     background-color: lightskyblue;
   }
-  /* Header backgroun image */
+  /* Header background image */
   header {
     display: block;
     height: 790px;
@@ -28,6 +28,7 @@
     margin: -25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
+    color: lemonchiffon;
     
   }
 /* Section headers */
@@ -44,6 +45,8 @@
 
   p {
     text-align: center;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace ;
     margin-top: -100px;
   }
 
@@ -56,19 +59,23 @@
  
   }
   img {
+    border: solid 5px;
     max-width: 45%
+ 
   }
 
   .image {
     flex-basis: 55%
   }
+
+  /* Text next to head shot image */
   .text {
     font-size: 20px;
     padding-left: 0px;
     margin: -9px -15px 35px -130px;
   }
 
-
+/* Menu Bar */
   #navbar {
   background-color:peachpuff; 
   position: fixed; 
@@ -95,7 +102,7 @@
   /* Spacing for project images */
   .row {
     display: flex;
-    margin: -80px 20px 0px 20px;
+    margin: -40px -0px 9px 95px;
   }
   
   /* Create three equal columns that sits next to each other - project images */
