@@ -7,7 +7,7 @@
     margin: 0px 0px;
     flex-direction: column;
     min-height: 100vh;
-    background-color: aqua;
+    background-color: lightskyblue;
   }
   /* Header backgroun image */
   header {
@@ -61,7 +61,7 @@
 
   #navbar a {
   display: inline-block;
-  margin: 0px 0px -10px 200px;
+  margin: 0px 0px -10px 300px;
   color:purple;
   padding: 1px;
   font-size: 20px;
