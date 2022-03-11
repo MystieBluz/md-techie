@@ -52,19 +52,20 @@
     display: flex;
     float: left;
     align-items: center;
-    margin: 45px -480px -185px;
+    margin: 45px -466px -185px;
  
   }
   img {
-    max-width: 55%
+    max-width: 45%
   }
 
   .image {
-    flex-basis: 45%
+    flex-basis: 55%
   }
   .text {
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 0px;
+    margin: -9px -15px 35px -130px;
   }
 
 
