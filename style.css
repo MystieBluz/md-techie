@@ -170,11 +170,17 @@
   text-align: center;
 }
 
-
   footer {
     margin-top: 0;
     bottom: 0;
     color: black;    
+  }
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .headshot, .image, .text, .row, .column, .hr-grow, .img-column, .contact, .text-center {
+      width: 100%;
+    }
   }
 
  
