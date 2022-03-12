@@ -27,7 +27,7 @@
     float: left;
     margin: -25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 55px;
+    font-size: 45px;
     color: lemonchiffon;
     
   }
@@ -55,7 +55,7 @@
     display: flex;
     float: left;
     align-items: center;
-    margin: 45px -466px -185px;
+    margin: 45px -420px -185px;
  
   }
   img {
@@ -120,7 +120,7 @@
     padding: 10px; 
     width: 160px;
     height: 90px;  
-    margin: -10px 150px -25px;
+    margin: -10px 150px -250px 250px;
   }
 
   /* HTML+CSS project box */
@@ -131,7 +131,7 @@
     padding: 10px; 
     width: 160px;
     height: 190px;  
-    margin: -82px 250px 70px;
+    margin: 40px 150px 185px -290px;
   }
 
   /* HTML + Javascript */
@@ -142,7 +142,7 @@
     padding: 30px; 
     width: 350px;
     height: 200px; 
-    margin: -290px 560px 50px; 
+    margin: -350px 490px 50px; 
   }
 
   .hvr-bounce-in {
