@@ -11,7 +11,7 @@
   /* Header background image */
   header {
     display: block;
-    height: 790px;
+    height: 830px;
     width: 100%;
     margin-bottom: -30px;
     padding: 40px;
@@ -99,9 +99,22 @@
     color: palevioletred;
   }
 
+
+  /* Spacing for project images */
+  .row {
+    display: flex;
+    margin: -40px -0px 9px 95px;
+  }
+  
+  /* Create three equal columns that sits next to each other - project images */
+  .column {
+    flex: 33.33%;
+    margin-left: 300px;
+  }
+
    /* HTML project box */
   #rcorners1 {
-    border-radius: 25px;
+    border-radius: 5px;
     background: #ee308f;
     font-size: 50px;
     padding: 10px; 
@@ -118,7 +131,7 @@
     padding: 10px; 
     width: 160px;
     height: 190px;  
-    margin: -100px 500px 90px;
+    margin: -82px 250px 70px;
   }
 
   /* HTML + Javascript */
@@ -129,45 +142,26 @@
     padding: 30px; 
     width: 350px;
     height: 200px; 
-    margin: -290px 810px 50px; 
+    margin: -290px 560px 50px; 
   }
 
+  .hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
 
-  /* Spacing for project images */
-  .row {
-    display: flex;
-    margin: -40px -0px 9px 95px;
+  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
   
-  /* Create three equal columns that sits next to each other - project images */
-  .column {
-    flex: 33.33%;
-    margin-left: 300px;
-  }
-  
-/* Grow  project images */
-.hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
-/* Transformations for project images */
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-
-
-
-
 
 /* Contact form area */
   input[type=text], select, textarea {
