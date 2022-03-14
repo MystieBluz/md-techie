@@ -209,18 +209,24 @@
     color: black;    
   }
 
-  @media screen and (max-width: 575px)
+  @media screen and (max-width: 575px) {
   .container1, .container2, .container3 {
+    background-color: yellow;
     width: 100%
-  }
-
-  @media screen and (max-width: 768px) 
-  .container1, .container2, .container3 {
-    width: 100%
-  }
   
-  @media screen and (max-width: 980px)
+  }
+}
+
+  @media screen and (max-width: 768px) {
+  .container1, .container2, .container3 {
+    background-color: yellow;
+    width: 100%
+  }
+}
+  
+  @media screen and (max-width: 980px) {
   .container1, .container2, .container3 {
 
   }
+}
 
