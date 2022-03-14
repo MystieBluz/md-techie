@@ -120,7 +120,7 @@
     padding: 10px; 
     width: 160px;
     height: 90px;  
-    margin: -10px 150px -250px 250px;
+    margin: -10px 250px -250px 250px;
   }
 
   /* HTML+CSS project box */
@@ -166,7 +166,7 @@
 /* Contact form area */
   input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 7px; /* Some padding */ 
+    padding: 10px; /* Some padding */ 
     border: 1px solid #ccc;
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -224,7 +224,7 @@
   }
 }
   
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 1442px) {
   .container1, .container2, .container3 {
 
   }
