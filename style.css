@@ -4,7 +4,7 @@
   
   body {
     margin: 0px 0px;
-    flex-direction: column;
+    flex-direction:column;
     min-height: 100vh;
     background-color: lightskyblue;
   }
@@ -209,12 +209,18 @@
     color: black;    
   }
 
-  @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .headshot, .image, .text, .row, .column, .hr-grow, .img-column, .contact, .text-center {
-      width: 100%;
-    }
+  @media screen and (max-width: 575px)
+  .container1, .container2, .container3 {
+    width: 100%
   }
 
- 
- 
+  @media screen and (max-width: 768px) 
+  .container1, .container2, .container3 {
+    width: 100%
+  }
+  
+  @media screen and (max-width: 980px)
+  .container1, .container2, .container3 {
+
+  }
+
