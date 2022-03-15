@@ -101,10 +101,12 @@
 
 
   /* Spacing for project images */
-  .row {
+  div.row {
     display: flex;
-    margin: -40px -0px 9px 95px;
-  }
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }  /* tells our div.row to 1. be a flex container/parent, and 2. to stick its direct children in a single row, no wrapping. */
   
   /* Create three equal columns that sits next to each other - project images */
   .column {
@@ -120,7 +122,7 @@
     padding: 10px; 
     width: 160px;
     height: 90px;  
-    margin: -10px 250px -250px 250px;
+    margin: 90px 150px -90px -0px;
   }
 
   /* HTML+CSS project box */
@@ -131,7 +133,7 @@
     padding: 10px; 
     width: 160px;
     height: 190px;  
-    margin: 40px 150px 185px -290px;
+    margin: 40px 750px 185px -290px;
   }
 
   /* HTML + Javascript */
@@ -142,7 +144,7 @@
     padding: 30px; 
     width: 350px;
     height: 200px; 
-    margin: -350px 490px 50px; 
+    margin: 35px 20px 0px -950px; 
   }
 
   .hvr-bounce-in {
@@ -209,25 +211,18 @@
     color: black;    
   }
 
-  @media screen and (max-width: 575px) {
-  .container1, .container2, .container3 {
-    background-color: lightgreen;
-    width: 100%
-  
+  @media (max-width: 767px) {
+    div.row > div.column { 
+      max-width: 100%; /* on small screens, fit across the entire row. */
+    }
   }
-}
-
-  @media screen and (max-width: 768px) {
-  .container1, .container2, .container3 {
-    background-color: lightgreen;
-    width: 100%
-  }
-}
   
-  @media screen and (max-width: 1442px) {
-  .container1, .container2, .container3 {
+  @media (min-width: 768px) {
+    div.row > div.column { 
+      max-width: 30%; /* on med-large screens, fit three of these columns per row.. */
+    }
+  }
     
 
-  }
-}
+ 
 
