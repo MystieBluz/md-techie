@@ -4,7 +4,7 @@
 
 My goal for this homework assignment was to create a web application from scratch and build a portfolio page that I can add to as this course progresses.
 
-The portfolio showcases a brief bio along with my current skills and talents.
+The portfolio showcases a brief bio along with my current skills, talents and a contact form.
 
 I utilized html, css, javascript and git to complete this homework assignment. 
 
