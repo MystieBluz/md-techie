@@ -211,7 +211,7 @@
 
   @media screen and (max-width: 575px) {
   .container1, .container2, .container3 {
-    background-color: yellow;
+    background-color: lightgreen;
     width: 100%
   
   }
@@ -219,13 +219,14 @@
 
   @media screen and (max-width: 768px) {
   .container1, .container2, .container3 {
-    background-color: yellow;
+    background-color: lightgreen;
     width: 100%
   }
 }
   
   @media screen and (max-width: 1442px) {
   .container1, .container2, .container3 {
+    
 
   }
 }
