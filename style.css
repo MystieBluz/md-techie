@@ -57,26 +57,39 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: lightsalmon;
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-}
+    background-color: rgb(45, 3, 83); 
+}   
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: lightsalmon;
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(45, 3, 83);
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(233, 67, 144);
+}
+
+.active {
+    display: block;
+}
+
+.active:hover {
+    color: greenyellow;
 }
 
 /* Controls */
