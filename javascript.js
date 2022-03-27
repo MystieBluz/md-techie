@@ -33,7 +33,7 @@ function Toggle() {
             })
 
             const element = document.getElementById(id)
-            element.classList.add('active')
+            element.classList.add('active)
 
         }
     });     
