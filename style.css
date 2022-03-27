@@ -1,228 +1,77 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0px 0px;
-    flex-direction:column;
-    min-height: 100vh;
-    background-color: lightskyblue;
-  }
-  /* Header background image */
-  header {
-    display: block;
-    height: 830px;
-    width: 100%;
-    margin-bottom: -30px;
-    padding: 40px;
-    text-align: center;
-    background-image: url(./images/portfolio_header_1.png);
-    background-size: cover;
-    background-position: center;
-    color: wheat;
-  }
-/* Main header */
-  h1 {
-    display: inline;
-    float: left;
-    margin: -25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 45px;
-    color: lemonchiffon;
-    
-  }
-/* Section headers */
-  h2 {
-    text-align: center;
-    background-color: peachpuff;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 125px;
-    padding: 15px;
-    border: 10px purple solid;
-    font-size: 35px;
-  }
-
-  p {
-    text-align: center;
-    font-size: 17px;
-    font-family: 'Courier New', Courier, monospace ;
-    margin-top: -100px;
-  }
-
-  /* Image under main header */
-  .headshot {
-    display: flex;
-    float: left;
-    align-items: center;
-    margin: 45px -420px -185px;
- 
-  }
-  img {
-    border: solid 5px;
-    max-width: 45%
- 
-  }
-
-  .image {
-    flex-basis: 55%
-  }
-
-  /* Text next to head shot image */
-  .text {
-    font-size: 20px;
-    padding-left: 0px;
-    margin: -9px -15px 35px -130px;
-  }
-
-/* Menu Bar */
-  #navbar {
-  background-color:peachpuff; 
-  position: fixed; 
-  top: -50px; /* Hide the navbar 50 px outside of the top view */
-  width: 100%; /* Full width */
-  transition: top 0.3s;
-  }
-
-  #navbar a {
-  display: inline-block;
-  margin: 0px 0px -10px 300px;
-  color:purple;
-  padding: 1px;
-  font-size: 25px;
-  font-family: cursive;
-  text-decoration: solid;
-  }
-
-  #navbar a:hover {
-    background-color: #ddd;
-    color: palevioletred;
-  }
-
-
-  /* Spacing for project images */
-  div.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }  /* tells our div.row to 1. be a flex container/parent, and 2. to stick its direct children in a single row, no wrapping. */
-  
-  /* Create three equal columns that sits next to each other - project images */
-  .column {
-    flex: 33.33%;
-    margin-left: 300px;
-  }
-
-   /* HTML project box */
-  #rcorners1 {
-    border-radius: 5px;
-    background: #ee308f;
-    font-size: 50px;
-    padding: 10px; 
-    width: 160px;
-    height: 90px;  
-    margin: 90px 990px -80px -30px;
-  }
-
-  /* HTML+CSS project box */
-  #rcorners2 {
-    border-radius: 15px;
-    background: #ee308f;
-    font-size: 50px;
-    padding: 10px; 
-    width: 160px;
-    height: 190px;  
-    margin: 30px 900px 100px -390px;
-  }
-
-  /* HTML + Javascript */
-  #rcorners3 {
-    border-radius: 25px;
-    background: #ee308f;
-    font-size: 50px;
-    padding: 30px; 
-    width: 350px;
-    height: 200px; 
-    margin: 25px 90px -100px -999px; 
-  }
-
-  .hvr-bounce-in {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(9px) translateZ(0);
-    transform: perspective(9px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-  }
-
-  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  }
-  
-
-/* Contact form area */
-  input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 10px; /* Some padding */ 
-    border: 1px solid #ccc;
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 15px; /* Add a top margin */
-    margin-bottom: 10px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-
-  /* Submit button */
-  input[type=submit] {
-    background-color: purple;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-
-  /* Submit button hover color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  /* Contact form background color and padding */
-  .container {
-    border-radius: 9px;
-    background-color: peachpuff;
-    padding: 20px;
-    margin: -80px 100px 200px;
-  }
-
-  /* Footer placement */
-.text-center {
-  text-align: center;
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none; 
 }
 
-  footer {
-    margin-top: 0;
-    bottom: 0;
-    color: black;    
-  }
+:root{
+    --color-primary: #8B008B;
+    --color-secondary: #E6E6FA;
+    color: black;
+    color: whitesmoke;
+    color: #696969;
+}
 
-  @media (max-width: 767px) {
-    div.row > div.column { 
-      max-width: 100%; /* on small screens, fit across the entire row. */
-    }
-  }
-  
-  @media (min-width: 768px) {
-    div.row > div.column { 
-      max-width: 30%; /* on med-large screens, fit three of these columns per row.. */
-    }
-  }
-    
 
- 
 
+body{
+    background-color: var(--color-primary);
+    font-family: 'Merriweather', serif;
+    font-size: 1.1rem;
+    color: var(--color-whitesmoke);
+    transition: all .4s ease-in-out;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+header{
+    height: 100vh;
+    color: var(--color-#696969);
+    overflow: hidden;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 3rem 18rem;
+}
+
+.section{
+    transform: translateY(-100%) scale(0);
+    transition: all .4s ease-in-out;
+    background-color: var(--color-primary);
+}
+
+.sec1{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sec2{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sec3{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sec4{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sec5{
+    display: none;
+    transform: translateY(0) scale(1);
+}
