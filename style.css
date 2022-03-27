@@ -7,19 +7,22 @@
 
 :root{
     --color-primary: #8B008B;
-    --color-secondary: #E6E6FA;
-    color: black;
-    color: whitesmoke;
-    color: #696969;
+    --color-secondary: #40E0D0;
+    --color: #696969;
+    --color: black;
+    --color: lightgrey;
+    --color: whitesmoke;
+    --color: lightblue;
+    --br-sm-2: 14px;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.2)  
 }
-
 
 
 body{
     background-color: var(--color-primary);
+    color: var(--color-#696969);
     font-family: 'Merriweather', serif;
     font-size: 1.1rem;
-    color: var(--color-whitesmoke);
     transition: all .4s ease-in-out;
 }
 
@@ -74,4 +77,47 @@ section{
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+}
+
+/* Controls */
+.controls{
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.active-btn{
+    background-color: var(--color-secondary) !important;
+    transition: all .4s ease-in-out;
+    
+}
+
+i{
+    color: var(--color-black) !important;
+}
+
+.control{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #696969;
+    width: 55px;
+    height: 55px;
+    border-radius: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .7rem 0;
+    box-shadow: var(--box-shadow-1);
+    
+}
+
+i{
+    font-size: 1.2rem;
+    color: var(--color-lightgrey);
+    pointer-events: none;
 }
