@@ -164,7 +164,7 @@ i{
     font-size: 3rem;
 }
 
-span, i{
+span{
     font-size: 3rem;
     color: rgb(54, 186, 204);
 }
@@ -201,5 +201,8 @@ img:hover{
     filter: grayscale(0);
 }
    
+#github{
+    color: rgb(54, 186, 204);
+}
 
 
