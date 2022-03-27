@@ -6,13 +6,13 @@
 }
 
 :root{
-    --color-primary: #8B008B;
-    --color-secondary: #40E0D0;
+    --color-primary: #5f065f;
+    --color-secondary: lightsalmon;;
     --color: #696969;
     --color: black;
     --color: lightgrey;
     --color: whitesmoke;
-    --color: lightblue;
+    --color: teal;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.2)  
 }
@@ -31,6 +31,10 @@ a{
     text-decoration: none;
     color: inherit;
     font-family: inherit;
+}
+
+h1, p{
+    color: black;
 }
 
 header{
@@ -57,31 +61,31 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: lightsalmon;
+    
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(45, 3, 83); 
+     
 }   
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: lightsalmon;
+    
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(45, 3, 83);
+    
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(233, 67, 144);
+    
 }
 
 .active {
@@ -89,7 +93,7 @@ section{
 }
 
 .active:hover {
-    color: greenyellow;
+    color: rgb(182, 255, 122);
 }
 
 /* Controls */
@@ -105,7 +109,7 @@ section{
 }
 
 .active-btn{
-    background-color: var(--color-secondary) !important;
+    background-color: teal !important;
     transition: all .4s ease-in-out;
     
 }
@@ -134,3 +138,42 @@ i{
     color: var(--color-lightgrey);
     pointer-events: none;
 }
+
+/* Headder section */
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.h-shape{
+    transition: all .4s ease-in-out;
+    width: 65%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 46% 0, 90% 100%, 0% 100%);
+}
+  
+img{
+   width: 400px;
+   margin: 15px 10px;
+   border: 15px solid black;
+   border-radius: var(--br-sm-2);
+   height: 90%;
+   width: 68%;
+   margin-left: 4rem;
+}
+  
+   
+
+
