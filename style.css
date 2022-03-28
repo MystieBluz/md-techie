@@ -180,7 +180,7 @@ span{
     z-index: -1;
     clip-path: polygon(0 0, 46% 0, 90% 100%, 0% 100%);
 }
-  
+  /* Head Shot Image Section */
 .image{
     border-radius: var(--br-sm-2);
     height: 90%;
@@ -200,7 +200,7 @@ img{
 img:hover{
     filter: grayscale(0);
 }
-   
+   /* GitHub Link in Header-Main Page */
 #github{
     color: rgb(54, 186, 204);
 }
@@ -260,6 +260,19 @@ h2{
     font-size: 1.2rem;
     color: var(--color-lightgrey);
     letter-spacing: 2px;
-    
+}
 
+.left-about{
+    padding-right: 5rem;
+}
+
+p{
+    line-height: 2rem;
+    padding: 1rem;
+    color: var(--color-lightgrey);
+}
+
+h4{
+    font-size: 2rem;
+    text-transform: uppercase;
 }
