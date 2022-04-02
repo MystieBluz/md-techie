@@ -1,4 +1,4 @@
-# md-techie
+# MD Techie
 
 ## Portfolio Assignment
 
