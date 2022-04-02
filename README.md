@@ -15,4 +15,4 @@ You can view my GitHub and Live URL below:
 
 
 ##### Screenshot of portfolio:
-![](./images/md_techie_scrnsht.png)
+![](./images/ReadME%20SrnSht.png)
