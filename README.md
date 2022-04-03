@@ -9,7 +9,7 @@ The portfolio showcases a brief bio along with my current skills, talents and a 
 I utilized html, css, javascript and git to complete this homework assignment. 
 
 You can view my GitHub and Live URL below:
-### [GitHub Link](https://github.com/mduhart82/misty-1-code-refactor) 
+### [GitHub Link](https://github.com/mduhart82/md-techie) 
 ### [Live URL](https://mduhart82.github.io/md-techie/)
 
 
