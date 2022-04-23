@@ -20,9 +20,9 @@
 
 body{
     background-color: var(--color-primary);
-    color: var(--color-#696969);
+    color: var(--color-lightgrey);
     font-family: 'Merriweather', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: all .4s ease-in-out;
 }
 
@@ -161,11 +161,11 @@ i{
 }
 
 .name{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 span{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgb(54, 186, 204);
 }
 
@@ -320,7 +320,7 @@ h3{
 }
 /* Figure out how to change color to teal */
 i{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--color-black);
     margin: 0 1rem;
 }
