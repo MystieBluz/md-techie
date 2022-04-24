@@ -201,16 +201,12 @@ h3{
     /* cursor: pointer; */
     transition: all .4s ease-in-out;
 }
-/* Figure out how to change color to teal */
+
 i{
     font-size: 1.5rem;
     color: var(--color-black);
     margin: 0 1rem;
 }
-
-/* i:hover{
-    background-color: var(--color-whitesmoke);
-} */
 
 .portImg {
     width: 100%;
@@ -246,7 +242,7 @@ i{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3.7rem;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .blog{
