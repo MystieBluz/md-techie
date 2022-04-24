@@ -211,6 +211,7 @@ i{
 .portImg {
     width: 100%;
     height: 200px;
+    border: 10px solid grey;
     object-fit:cover;
     border-radius: 5px;
 }
@@ -278,6 +279,7 @@ i{
 .blogImg{
     width: 100%;
     height: 200px;
+    border: 10px solid black;
     object-fit:cover;
     border-radius: 5px;
 }
@@ -311,6 +313,18 @@ i{
     padding-top: 4.5rem;
 }
 
+h3{
+    margin: 1rem;
+    font-size: 2 rem;
+    text-transform: uppercase;
+}
+
+.contact-info{
+    line-height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .left-contact{
     padding-right: .5rem;
     margin-top: 25px;
@@ -332,6 +346,7 @@ i{
 input, textarea{
     border-radius: 10px;
     margin: -5px -77px 5px 17px;
+    text-align: center;
     font-weight: inherit;
     font-size: 15px;
     font-family: inherit;
@@ -359,6 +374,7 @@ input, textarea{
     
 
 button{
+    position: sticky;
     margin-top: -70px;
     margin-left: 120px;
     border-radius: 5px;
@@ -410,6 +426,33 @@ i{
     margin: .7rem 0;
     box-shadow: var(--box-shadow-1);
     
+}
+
+i{
+    font-size: 1.2rem;
+    color: var(--color-lightgrey);
+    pointer-events: none;
+}
+
+/* Toggle Button Area: Changes colors on page */
+.theme-btn{
+    top: 5%;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(grey);
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 20px turquoise;
+    transition: all .1s ease-in-out;
+}
+
+.theme-btn:active{
+    transform: translate(-3px);
 }
 
 i{
@@ -512,3 +555,4 @@ h2{
 /* Fix hover sizing so it matches portfolio image */
 /* Make page responsive */
 /* Separate Name and Email somehow */
+/* Make nav color on buttons show instantly */
