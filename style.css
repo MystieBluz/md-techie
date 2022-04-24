@@ -96,6 +96,221 @@ section{
     color: rgb(182, 255, 122);
 }
 
+
+/* Main Sections Start Here */
+/* About Me Section */
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+}
+
+.right-about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.about-item:hover{
+    border: 1px solid var(--color-lightgrey);
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+    cursor: pointer;
+    transform: translateY(-5px);
+    border: 1px solid var(--color-secondary);
+    box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+}
+
+.abt-text{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.large-text{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.small-text::before{
+    padding-left: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--color-lightgrey);
+    letter-spacing: 2px;
+}
+
+.left-about{
+    padding-right: 5rem;
+}
+
+p{
+    line-height: 2rem;
+    padding: 1rem;
+    color: var(--color-lightgrey);
+}
+
+h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+/* Portfolio Section */
+.port-text{
+    padding: 2rem 0;
+    text-align: center;
+
+}
+
+.portfolios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.portfolio-item{
+    position: relative;
+    border-radius: 15px;
+}
+h3{
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin-bottom: 1.5rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    /* cursor: pointer; */
+    transition: all .4s ease-in-out;
+}
+/* Figure out how to change color to teal */
+i{
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 0 1rem;
+}
+
+/* i:hover{
+    background-color: var(--color-whitesmoke);
+} */
+
+.portImg {
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
+.hover-items{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(0);
+    transition: all .4s ease-in-out;
+}
+
+.portfolio-item:hover .hover-items{
+    opacity: 2;
+    transform: scale(1);
+}
+
+/* Blog Section */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.7rem;
+    margin-top: 15%;
+}
+
+.blog{
+    position: relative;
+}
+
+.bIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bIcon{
+    background-color: var(--color-primary);
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    /* cursor: pointer; */
+    transition: all .4s ease-in-out;
+}
+/* Figure out how to change color to teal */
+i{
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 0 1rem;
+}
+
+
+.blogImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+.hover-items{
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(0);
+    transition: all .4s ease-in-out;
+}
+
+.blogs:hover .hover-items{
+    opacity: 2;
+    transform: scale(1);
+}
+
+
+
 /* Controls */
 .controls{
     position: fixed;
@@ -189,9 +404,10 @@ span{
     background-color: black;
     transition: all .4s ease-in-out;
 }
-img{
+.headerImg{
    width: 100%;
    height: 100%;
+   border: 10px solid black;
    object-fit: cover;
    transition: all .4s ease-in-out;
    filter: grayscale(100%);
@@ -216,144 +432,3 @@ h2{
     font-weight: 700;
 }
 
-/* About Me Section */
-.about-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 3.5rem;
-    padding-bottom: 5rem;
-}
-
-.right-about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-}
-
-.about-item:hover{
-    border: 1px solid var(--color-lightgrey);
-    border-radius: 5px;
-    transition: all .4s ease-in-out;
-    box-shadow: 1px 2px 15px rgba(0,0,0,.1);
-    cursor: pointer;
-    transform: translateY(-5px);
-    border: 1px solid var(--color-secondary);
-    box-shadow: 1px 4px 15px rgba(0,0,0,.32);
-}
-
-.abt-text{
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.large-text{
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--color-secondary);
-}
-
-.small-text::before{
-    padding-left: 3rem;
-    position: relative;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    color: var(--color-lightgrey);
-    letter-spacing: 2px;
-}
-
-.left-about{
-    padding-right: 5rem;
-}
-
-p{
-    line-height: 2rem;
-    padding: 1rem;
-    color: var(--color-lightgrey);
-}
-
-h4{
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-
-/* Portfolio Section */
-.port-text{
-    padding: 2rem 0;
-    text-align: center;
-
-}
-
-.portfolios{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-}
-
-.portfolio-item{
-    position: relative;
-    border-radius: 15px;
-}
-h3{
-    font-size: 1.5rem;
-    color: var(--color-black);
-    margin-bottom: 1.5rem;
-}
-
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon{
-    background-color: var(--color-primary);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 1rem;
-    /* cursor: pointer; */
-    transition: all .4s ease-in-out;
-}
-/* Figure out how to change color to teal */
-i{
-    font-size: 1.5rem;
-    color: var(--color-black);
-    margin: 0 1rem;
-}
-
-/* i:hover{
-    background-color: var(--color-whitesmoke);
-} */
-
-img .a{
-    width: 100%;
-    height: 300px;
-    object-fit:  contain;
-    border-radius: 15px;
-}
-
-.hover-items{
-    width: 100%;
-    height: 100%;
-    background-color: var(--color-secondary);
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transform: scale(0);
-    transition: all .4s ease-in-out;
-}
-
-.portfolio-item:hover .hover-items{
-    opacity: 2;
-    transform: scale(1);
-}
