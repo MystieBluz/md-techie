@@ -561,7 +561,5 @@ h2{
     text-align: center;
   }
 
-/* Fix hover sizing so it matches portfolio image */
-/* Make page responsive */
-/* Separate Name and Email somehow */
-/* Make nav color on buttons show instantly */
+@import './media.css'
+
