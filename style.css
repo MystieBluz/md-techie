@@ -305,6 +305,10 @@ i{
     transform: scale(1);
 }
 
+/* Contacts Section */
+
+
+
 
 
 /* Controls */
@@ -424,7 +428,11 @@ img:hover{
 h2{
     position: relative;
     text-transform: uppercase;
-    font-size: 4rem;
+    text-decoration: underline;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
+
+/* Fix hover sizing so it matches portfolio image */
+/* Make page responsive */
