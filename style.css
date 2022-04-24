@@ -12,11 +12,20 @@
     --color: black;
     --color: lightgrey;
     --color: whitesmoke;
-    --color: teal;
+    --color: rgb(43, 217, 217);
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.2)  
 }
 
+.light-mode{
+    --color-primary: #414aad;
+    --color-secondary: rgb(225, 222, 47);;
+    --color: #151212;
+    --color: rgb(232, 228, 228);
+    --color: lightgrey;
+    --color: whitesmoke;
+    --color: teal;
+}
 
 body{
     background-color: var(--color-primary);

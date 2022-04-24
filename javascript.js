@@ -13,7 +13,6 @@ function Toggle() {
             this.className += ' active-btn';
         })
     }
-
   
 
     // Active Sections - 'for' function was not provided in YouTube tutorial -- used Google to solve issue
@@ -39,11 +38,12 @@ function Toggle() {
     });     
     
     // Toggle Theme
-    const themeBtn = document.querySelector('theme-btn');
-    themeBtn.addEventListener('click', () =>{
+    const themeBtn = document.querySelector('.theme-btn');
+    themeBtn.addEventListener('click', function(e){
         let element = document.body;
         element.classList.toggle('light-mode')
     })
+    
 }  
 
     Toggle()
