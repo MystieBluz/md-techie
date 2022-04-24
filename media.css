@@ -2,7 +2,7 @@
     header{
         padding: 0;
     }
-    
+
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
@@ -14,12 +14,15 @@
     }
 
     .theme-btn{
-        width: 50%;
-        height: 50%;
+        width: 5px;
+        height: 50px;
     }
 
     .right-header{
         padding: 0 !important;
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .left-header{
@@ -32,12 +35,16 @@
         flex-direction: row;
         justify-content: center;
         left: 50%;
-        transform: translate(-50%);
+        transform: translateX(-50%);
         width: 100%;
-        background-color: aquamarine;
+        background-color: blue;
     }
 
     .control{
         margin: 1rem .3rem;
+    }
+
+    .name{
+        font-size: 2.5rem;
     }
 }
