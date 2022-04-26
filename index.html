@@ -27,8 +27,8 @@
       </div>
       <div class="right-header">
         <h1 class="name">
-          Greetings,<br> I'm <span><em>Misty Duhart.</em></span><br>Full Stack Developer and Web Designer<span><em><small>in the making</small></em></span>.
-        </h1>
+          Greetings,<br> I'm <span><em>Misty Duhart.</em></span><br>Full Stack Developer and Web Designer
+          <br>(<div class="fade-in-text" ><span style="font-size: 37px;"><em>in the making</em></span></div>  )</h1>
       </div>
     </div>
       </header>
@@ -239,28 +239,43 @@
 
           
           <!-- Right Side of Contact Section -->
-          <div class="right-contact">
-            <!-- Contact form section -->
-            <form action="" class="contact-form">
-              <div class="input-control i-c-2">
-                <input type="text" required placeholder="Name">
-                <input class="emailInput" type="email" required placeholder="Email">
+          <div class="container">
+            <form mailto:"misty.duhart@gmail.com" method="post" name="contact_form"
+            action="contact-form-handler.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <!-- First Name -->
+                <div class="col-75">
+                  <input type="text" id="fname" name="name" placeholder="">
+                </div>
               </div>
-              <div class="input-control">
-                <input type="text" required placeholder="Subject">
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <!-- Last Name -->
+                <div class="col-75">
+                  <input type="text" id="lname" name="name" placeholder="">
+                </div>
               </div>
-              <div class="input-control">
-                <textarea name="" placeholder="Message..." id="" cols="15" rows="8"></textarea>
+              <div class="row">
               </div>
-              <div class="contactSubmit-btn">
-                  <a href="#" class="contactMain-btn">
-                    <button class="btn-text">Send Message</button>
-                  </a>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <!-- Message Area -->
+                <div class="col-75">
+                  <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
               </div>
             </form>
           </div>
-        </div>
-      </div>
     </section>
   </main>
 

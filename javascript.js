@@ -50,4 +50,7 @@ function Toggle() {
    
    
 
-
+    var frmvalidator  = new Validator("contact_form");
+    frmvalidator.addValidation("name","req","Please provide your name");
+    frmvalidator.addValidation("message","req","Please write a message with email address and/or contact number");
+    
