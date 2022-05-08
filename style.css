@@ -8,9 +8,61 @@
     padding: 3vmin;
     background: burlywood;
   }
+ 
   
+  /* Nav Buttons -- Controls,etc.  */
+/* Controls */
+.controls{
+    /* position: fixed; */
+    display: inline-box;
+    display: flex;
+    flex-direction: row;
+    /* margin: 0px 250px 2px; */
+    transform: translateY(-55%);
+    /* z-index: 10; */
+  
+    
+}
 
-  #homePage {
+.active-btn:hover{
+    background-color: teal;
+    transition: all .4s ease-in-out;
+    
+}
+
+.active {
+    display: inline-flex;
+}
+
+/* .active-btn:hover {
+    color: rgb(122, 255, 242);
+} */
+
+.control{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #696969;
+    width: 55px;
+    height: 55px;
+    border-radius: 55%;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    margin: .7rem 0;
+    box-shadow: var(--box-shadow-1);
+    
+}
+
+i{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    pointer-events: none;
+}
+
+
+/* Start -- Main Section */
+
+  #home {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
@@ -123,4 +175,48 @@
  
   /* Main Sections - About/Projects/Blog/Contact */
 
-  
+  section{
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 3rem 18rem;
+}
+
+.section{
+    transform: translateY(-100%) scale(0);
+    transition: all .4s ease-in-out;
+    
+}
+
+.sec1{
+    display: block;
+    transform: translateY(0) scale(1);
+    
+}
+
+.sec2{
+    display:block;
+    transform: translateY(0) scale(1);
+     
+}   
+
+.sec3{
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+
+.sec4{
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+
+.sec5{
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+ 

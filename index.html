@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./style.css">
+
   
 
   <title>M.D. Techie</title>
@@ -21,39 +23,33 @@
       <img src="./images/Transparent Logo.png" style="width: 100%;" alt="Logo">
     </div>
   
-  <!-- Nav bar -->
-    <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu1">About Me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu2">Projects</a>
-    </li>
-  </ul>
+    <!-- Nav Buttons/Controls with Icons from Font Awesome-->
+  <div class="controls">
 
-  <!-- Tab panes -->
-  <!-- <div class="tab-content">
-    <div id="home" class="container tab-pane fade active "><br>
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="container tab-pane fade"><br>
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="container tab-pane fade"><br>
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
+    <a class="control control-1 mr-1 active-btn" href="#home" data-id="home">
+      <i class="fas fa-home"></i>
+    </a>
+
+    <a class="control control-2 mr-1" href="#about" data-id="about">
+      <i class="fas fa-user-astronaut"></i>
+    </a>
+    
+    <a class="control control-3 mr-1" href="#portfolio" data-id="portfolio">
+      <i class="fas fa-terminal"></i>
+    </a>
+      
+    <a class="control control-4 mr-1" href="#blog" data-id="blogs">
+      <i class="fas fa-feather"></i>
+    </a>
+     
+    <a class="control control-5 mr-1" href="#contact" data-id="contact">
+      <i class="far fa-address-book"></i>
+    </a> 
   </div>
-</div> -->
+  
 
   <!-- Main Section -- About ME -->
-  <div id="homePage">
+  <div id="home">
     <div class="title">
       <div class="title-inner">
         <div class="cafe">
@@ -65,7 +61,7 @@
       </div>
     </div>
     
-  
+    
     <!--- Head Shot Image -->
     <div class="image">
       <img class="img" src='./images/Resize_About_Me_Photo.jpeg' alt=''>
@@ -250,10 +246,16 @@
       </div>
     </section>
 
+    
+
+
 
    
   
 <script src="./javascript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html> 
