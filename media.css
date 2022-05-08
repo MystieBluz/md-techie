@@ -1,56 +1,60 @@
-@media screen and (max-width: 700px){
+/* /* @media screen and (max-width: 700px){
+
     header{
         padding: 0;
     }
-
-    .header-content{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
+}
+    /* .header-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
     }
-
-    .h-shape{
-        padding: 0;
-        display: none;
-    }
-
-    .theme-btn{
-        width: 5px;
-        height: 50px;
-    }
-
-    .right-header{
-        padding: 0 !important;
-        grid-row: 1;
-        width: 90%;
-        margin: 0 auto;
-    }
-
+    
     .left-header{
-        padding: 0;
+        display: flex;
+        align-items: center;
+        position: relative;
     }
-
-    .controls{
-        top: auto;
-        bottom: 0;
-        flex-direction: row;
+    
+    .right-header{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-        background-color: blue;
+        padding-right: 18rem;
+    
     }
-
-    .control{
-        margin: 1rem .3rem;
-    }
-
+    
     .name{
         font-size: 2.5rem;
     }
-
-    .col-25, .col-75, input[type=submit]{
-        width: 100%;
-        margin-top: 0;
-        padding: 0;
+    
+    span{
+        font-size: 2.5rem;
+        color: rgb(54, 186, 204);
     }
-}
+
+} */
+
+
+/* @media screen and (max-width: 620px){
+
+    .headImage{
+        display: block;
+        padding: 0;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    .headerImg{
+        padding: 0%;
+        max-width: 250%;
+        height: auto;
+    } */
+
+    /* .left-header{
+        display: flex;
+        align-items: center;
+        position: relative;
+    } */
+/* }; */ 
