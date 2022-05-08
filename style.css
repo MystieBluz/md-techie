@@ -21,8 +21,13 @@ body {
   /* Nav Buttons -- Controls,etc.  */
 /* Controls */
 nav {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
     background-color: rgb(85, 82, 88);
 }
+
 
 /* .controls{ */
     /* position: fixed; */
@@ -59,9 +64,11 @@ nav {
     height: 55px;
     border-radius: 55%;
     /* justify-content: center; */
-  
-    
 }
+
+.control:hover {
+    background-color:  #065961;
+  }
 
 
 i{
@@ -69,8 +76,8 @@ i{
     color: tan;
     pointer-events: none;
 }
-
-
+  
+  
 
   
 
@@ -78,7 +85,7 @@ i{
 /* About Section */
 .about-section {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, rgb(79, 167, 217) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, rgb(13, 193, 225) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
   }
   .about-section p {
     margin-bottom: 5rem;
@@ -90,7 +97,7 @@ i{
   #portfolio {
       padding-top: 5rem;
       padding-bottom: -2rem;
-      background: linear-gradient(to bottom, rgb(239, 190, 107) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+      background: linear-gradient(to bottom, burlywood 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
   }
   #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
     max-width: 1920px;
@@ -134,7 +141,7 @@ i{
   #blog {
     padding-top: 7rem;
     padding-bottom: 4rem;
-    background: linear-gradient(to bottom, rgb(88, 181, 227) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(118, 109, 119, 0.8) 100%);
+    background: linear-gradient(to bottom, rgb(13, 193, 225) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(118, 109, 119, 0.8) 100%);
     margin-top: 5rem;
     margin-bottom: -5rem;
 }
