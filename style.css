@@ -1,11 +1,11 @@
-* {
-    position: relative;
-    box-sizing: border-box;
-  }
-
-  body {
-    display: grid;
-    padding: 3vmin;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }  
+  
+body {
+    padding: 0px;
     background: burlywood;
   }
  
@@ -15,10 +15,11 @@
 .controls{
     /* position: fixed; */
     display: inline-box;
-    display: flex;
-    flex-direction: row;
-    /* margin: 0px 250px 2px; */
-    transform: translateY(-55%);
+    display:inline-flex;
+    flex-direction:row;
+    /* transform: translateY(-55%) */
+    /* Centered the nav buttons */
+     /* translateX(30%); */
     /* z-index: 10; */
   
     
@@ -45,13 +46,11 @@
     width: 55px;
     height: 55px;
     border-radius: 55%;
-    /* display: flex; */
-    justify-content: center;
-    /* align-items: center; */
-    margin: .7rem 0;
-    box-shadow: var(--box-shadow-1);
+    /* justify-content: center; */
+  
     
 }
+
 
 i{
     font-size: 1.2rem;
@@ -66,7 +65,7 @@ i{
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    padding-bottom: 4vmin;
+    /* padding-bottom: 4vmin; */
     height: 90vh;
     width: 100%;
     background: rgb(236, 97, 97);
@@ -79,7 +78,7 @@ i{
   @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
   
   .title {
-    padding-left: 1em;
+    /* padding-left: 1em; */
     grid-column: 1 / -1;
     grid-row: 1;
   
@@ -177,11 +176,11 @@ i{
 
   section{
     min-height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 18rem;
+    /* padding: 3rem 18rem; */
 }
 
 .section{

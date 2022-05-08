@@ -20,232 +20,65 @@
 
   <!-- Header Logo -->
     <div class="container-fluid">
-      <img src="./images/Transparent Logo.png" style="width: 100%;" alt="Logo">
+      <img src="./images/Transparent Logo.png" style="max-width:100%; height:auto;"  alt="Logo">
     </div>
   
-    <!-- Nav Buttons/Controls with Icons from Font Awesome-->
-  <div class="controls">
-
-    <a class="control control-1 mr-1 active-btn" href="#home" data-id="home">
-      <i class="fas fa-home"></i>
-    </a>
-
-    <a class="control control-2 mr-1" href="#about" data-id="about">
-      <i class="fas fa-user-astronaut"></i>
-    </a>
+   
     
-    <a class="control control-3 mr-1" href="#portfolio" data-id="portfolio">
-      <i class="fas fa-terminal"></i>
-    </a>
+      <!-- Nav Buttons/Controls with Icons from Font Awesome-->
+      <nav class="navbar navbar-default navbar-static-top" " >
+        <div class="container controls col-md-12 text-center">
+          <a class="control control-1 mr-3 active-btn" href="#home" data-id="home">
+            <i class="fas fa-home"></i>
+          </a>
       
-    <a class="control control-4 mr-1" href="#blog" data-id="blogs">
-      <i class="fas fa-feather"></i>
-    </a>
-     
-    <a class="control control-5 mr-1" href="#contact" data-id="contact">
-      <i class="far fa-address-book"></i>
-    </a> 
-  </div>
+          <a class="control control-2 mr-3" href="#about" data-id="about">
+            <i class="fas fa-user-astronaut"></i>
+          </a>
+          
+          <a class="control control-3 mr-3" href="#portfolio" data-id="portfolio">
+            <i class="fas fa-terminal"></i>
+          </a>
+            
+          <a class="control control-4 mr-3" href="#blog" data-id="blogs">
+            <i class="fas fa-feather"></i>
+          </a>
+           
+          <a class="control control-5 mr-3" href="#contact" data-id="contact">
+            <i class="far fa-address-book"></i>
+          </a> 
+        </div>
+      </nav>
+      
+    
+    
   
-
-  <!-- Main Section -- About ME -->
-  <div id="home">
-    <div class="title">
-      <div class="title-inner">
-        <div class="cafe">
-          <div class="cafe-inner">Misty</div>
-        </div>
-        <div class="mozart">
-          <div class="mozart-inner">Duhart</div>
-        </div>
-      </div>
-    </div>
-    
-    
-    <!--- Head Shot Image -->
-    <div class="image">
-      <img class="img" src='./images/Resize_About_Me_Photo.jpeg' alt=''>
-    </div>
-  </div>
-
-   <!-- Main Sections: About Me/Portfolio/Blogs/Contact -->
-   <main>
-    <!-- About Me Section-->
-    <section class="section sec2 about" id="about">
-      <div class="main-title">
-        <h2>About</h2>
-      </div>
-      <div class="about-container">
-        <!-- About Me -- Left Side Section -->
-        <div class="left-about">
-          <h3>Who is Misty Duhart?</h3>
-          <!-- Adjust size of <p> and right section -->
-          <p>A seasoned actress pursuing a career in web development, web design and digital marketing.</p>
-          <p>Click for: 
-            <!-- Links to my GitHub and Resume -->
-            <a  id="github" href="https://github.com/mduhart82" target="_blank"> <em>GitHub</em> +</a> <a  id="resume" href="https://docs.google.com/document/d/1fJt2ovXHVEROanBbzsadGdqKmXWBQuIAqPZ-dH0OsZ4/edit?usp=sharing" target="_blank"><em>Resume</em></a></p>
-        </div>
-        <!-- About Me -- Right Side Section -->
-        <div class="right-about">
-          <div class="about-item">
-            <div class="abt-text">
-              <p class="large-text">11+</p>
-              <p class="small-text">PROJECTS <br>COMPLETED</p>
-            </div>
-          </div>
-          <div class="about-item">
-            <div class="abt-text">
-              <p class="large-text">3</p>
-              <p class="small-text">MONTHS OF <br>EXPERIENCE</p>
-            </div>
-          </div>
-          </div>
-        </div>
-    </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section class="section sec3 portfolio" id="portfolio">
-      <div class="main-title">
-        <h2>Portfolio</h2>
-      </div>
-      <p class="port-text">
-        <em>Samples of my work in various programming languages. Move mouse over image and click GitHub icon for more info!</em> 
-      </p>
-      <div class="portfolios">
-        <!-- 1st Portfolio Item -->
-        <div class="portfolio-item">
-          <div class="image">
-            <!-- Place Best Project Images here -->
-            <img class="portImg" src="./images/Project_Port_Img_1.png" alt="Replace with 3-4 project images">
-          </div>
-          <div class="hover-items">
-            <h3>GitHub Link</h3>
-            <div class="icons">
-              <!-- Github link to group project titled: Personal Assistant -->
-              <a href="https://github.com/mduhart82/Personal-Assistant" target="blank" class="icon">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        
-        <!-- 2nd Portfolio Item -->
-        <div class="portfolio-item">
-          <div class="image">
-            <!-- Github image of weather dashboard project -->
-            <img class="portImg" src="./images/Weather_Port_Img.png" alt="Image of weather dashboard project">
-          </div>
-          <div class="hover-items">
-            <h3>GitHub Link</h3>
-            <div class="icons">
-              <!-- Place Github links of best projects here -->
-              <a href="https://github.com/mduhart82/weather-dashboard" target="blank" class="icon">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 3rd Portfolio Item -->
-        <div class="portfolio-item">
-          <div class="image">
-            <!-- Github image of password generator project -->
-            <img class="portImg" src="./images/Pw_Gen_Port_Img.png" alt="Image of password generator project">
-          </div>
-          <div class="hover-items">
-            <h3>GitHub Link</h3>
-            <div class="icons">
-              <!-- Github link to password generator -->
-              <a href="https://github.com/mduhart82/p-word-gen" target="blank" class="icon">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 4th Portfolio Item -->
-        <div class="portfolio-item">
-          <div class="image">
-            <!-- Githhub image of daily planner project -->
-            <img class="portImg" src="./images/Daily_Port_Img.png" alt="Image of daily planner project">
-          </div>
-          <div class="hover-items">
-            <h3>GitHub Link</h3>
-            <div class="icons">
-              <!-- Github link to daily planner -->
-              <a href="https://github.com/mduhart82/daily-planner" target="blank" class="icon">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Blog Section: Fix Hover section so hover only happens if one image is hovered over at a time -->
-    <section class="section sec4" id="blogs">
-      <div class="blogs-content">
-        <div class="main-title">
-          <h2>Blog</h2>
-          </div>
-        <div class="blogs">
-          <!-- 1st Blog Piece -->
-          <div class="blog">
-            <img class="blogImg" src="./images/Transparent Logo.png" alt="Place Blog Image Here">
-            <div class="hover-items">
-              <h3>Coming Soon!</h3>
-            <div class="bIcons">
-              <!-- Place WordPress links of best projects here -->
-              <a href="https://mstechiecom.wordpress.com/" target="blank" class="bIcon">
-                <i class="fab fa-wordpress"></i>
-              </a>
-            </div>
-            </div>
-          </div>
-          <!-- 2nd Blog Piece -->
-          <div class="blog">
-            <img class="blogImg" src="./images/Transparent Logo.png" alt="Place Blog Image Here">
-            <div class="hover-items">
-              <h3>Coming Soon!</h3>
-            <div class="bIcons">
-              <!-- Place WordPress links of best projects here -->
-              <a href="https://mstechiecom.wordpress.com/" target="blank"  class="bIcon">
-                <i class="fab fa-wordpress"></i>
-              </a>
-            </div>
-            </div>
-          </div>
-          <!-- 3rd Blog Piece -->
-          <div class="blog">
-            <img class="blogImg" src="./images/Transparent Logo.png" alt="Place Blog Image Here">
-            <div class="hover-items">
-              <h3>Coming Soon!</h3>
-            <div class="bIcons">
-              <!-- Place WordPress links of best projects here -->
-              <a href="https://mstechiecom.wordpress.com/" target="blank"  class="bIcon">
-                <i class="fab fa-wordpress"></i>
-              </a>
-            </div>
-            </div>
-          </div>
-          <!-- 4th Blog Piece -->
-          <div class="blog">
-            <img class="blogImg" src="./images/Transparent Logo.png" alt="Place Blog Image Here">
-            <div class="hover-items">
-              <h3>Coming Soon!</h3>
-            <div class="bIcons">
-              <!-- Place WordPress links of best projects here -->
-              <a href="https://mstechiecom.wordpress.com/" target="blank"  class="bIcon">
-                <i class="fab fa-wordpress"></i>
-              </a>
-            </div>
-            </div>
-          </div>
+  <main>
+    <div class="container " >
+      <!-- Main Section -- Name and Photo -->
+ <div id="home">
+   <div class="title">
+     <div class="title-inner">
+       <div class="cafe">
+         <div class="cafe-inner">Misty</div>
        </div>
-      </div>
-    </section>
+       <div class="mozart">
+         <div class="mozart-inner">Duhart</div>
+       </div>
+     </div>
+   </div>
+   
+   
+   <!--- Head Shot Image -->
+   <div class="image">
+     <img class="img" src="./images/Resize_About_Me_Photo.jpeg" style="max-width:100%;height:auto;"alt=''>
+   </div>
+ </div>
 
+  </main>
+   
+
+ 
     
 
 
