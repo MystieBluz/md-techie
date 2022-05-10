@@ -94,6 +94,10 @@ i{
   .about-section p {
     margin-bottom: 5rem;
   }
+
+  .img-fluid {
+    border: 7px solid gray;
+  }
   
   
   /* Portfolio Section */
@@ -129,10 +133,7 @@ i{
     text-align: center;
   }
  
-  }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-    font-size: 1.2rem;
-  }
+  
   #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
   }
@@ -140,7 +141,7 @@ i{
   /* Blog Section */
   #blog {
     padding-top: 7rem;
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
     background: linear-gradient(to bottom, rgb(13, 193, 225) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(118, 109, 119, 0.8) 100%);
     margin-top: 5rem;
     margin-bottom: -5rem;
