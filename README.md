@@ -15,4 +15,4 @@ You can view my GitHub and Live URL below:
 
 
 ##### Screenshot of portfolio:
-![]()
+![](./images/Portfolio%20SrnSht.png)
