@@ -1,12 +1,37 @@
-# MD Techie
+# Portfolio - M.D. Techie
+  ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-## Portfolio Assignment
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributors](#contribution)
+  * [Tests](#test)
+  * [License](#license)
+  * [Questions](#questions)
+  
+  ## Description 
+  Created a web application from scratch in order to showcase my projects. It also features an about me, blog and contact section along with my personal logo as the main header.
+  
+  ## Installation 
+  No installation instructions provided.
 
-My goal for this homework assignment was to create a web application from scratch and build a portfolio page that I can add to as this course progresses.
+  ## Usage 
+  HTML/CSS/JavaScript and Git was utilized to build this web application.
 
-The portfolio showcases a brief bio along with my current skills, talents and a contact form.
+  ## Contributors
+  Please feel free to contact me for further information regarding contribution guidelines. My contact information is located under the Question section.
 
-I utilized html, css, javascript and git to complete this homework assignment. 
+  ## Tests
+  No testing instructions provided.
+
+  ## License 
+  The application is covered under the MIT license.
+ 
+
+  ## Questions
+  Should there be any comments and/or inquiries, please feel free to contact me at misty.duhart@gmail.com. Also, you can search for my repo on GitHub by entering mduhart82 or you can view my projects at https://github.com/mduhart82.
+
 
 You can view my GitHub and Live URL below:
 ### [GitHub Link](https://github.com/mduhart82/md-techie) 
