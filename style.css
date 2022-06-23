@@ -116,7 +116,7 @@ i{
   #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
     position: relative;
     display: block;
-    border:10px solid rgb(104, 115, 120);
+    border:5px solid rgb(104, 115, 120);
   }
   #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
     display: flex;
@@ -130,7 +130,7 @@ i{
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(244, 98, 58, 0.9);
+    background: rgba(13, 13, 12, 0.9);
     transition: opacity 0.25s ease;
     text-align: center;
   }
