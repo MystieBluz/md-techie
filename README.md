@@ -30,12 +30,12 @@
  
 
   ## Questions
-  Should there be any comments and/or inquiries, please feel free to contact me at misty.duhart@gmail.com. Also, you can search for my repo on GitHub by entering mduhart82 or you can view my projects at https://github.com/mduhart82.
+  Should there be any comments and/or inquiries, please feel free to contact me at mystiebluz@gmail.com. Also, you can search for my repo on GitHub by entering MystieBluz or you can view my projects at https://github.com/mystiebluz.
 
 
 You can view my GitHub and Live URL below:
-### [GitHub Link](https://github.com/mduhart82/md-techie) 
-### [Live URL](https://mduhart82.github.io/md-techie/)
+### [GitHub Link](https://github.com/mystiebluz/md-techie) 
+### [Live URL](https://mystiebluz.github.io/md-techie/)
 
 
 
